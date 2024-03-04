@@ -1,0 +1,1 @@
+java -Xms256m -Xmx1g -Dcom.sun.xml.bind.v2.bytecode.ClassTailor.noOptimize=true -DLOGS_DIR="D:\Logs" -Dserver.port=8081 -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=9003,suspend=n -jar target\library-service-1.0.1-SNAPSHOT.jar
